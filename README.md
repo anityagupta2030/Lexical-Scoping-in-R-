@@ -7,4 +7,3 @@
 
 #Function “makeCacheMatrix” creates a special “matrix” object that can cache its inverse. makeCacheMatrix contains 4 functions: set, get, #setmean, getmean. #(1)get is a function that returns the vector x stored in the main function. #(2)set is a function that changes the vector stored in the main function. #(3)setmean and getmean are functions very similar to set and get. #(4)They don’t calculate the mean, they simply store the value of the input in a variable m. #(5)into the main function makeVector (setmean) and return it (getmean).
 
-makeCacheMatrix <- function(x = matrix()) {
